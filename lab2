@@ -1,0 +1,30 @@
+ Scanner num=new Scanner(System.in);
+//                 int n=num.nextInt();
+//                 if (n<=0){
+//                     System.out.println("postive");
+//                     else if (n>=0){
+//                         System.out.println("nigative");
+//
+//                     } else if (n==0) {
+//                         System.out.println("equl zero");
+//                     }
+//
+//                     }
+//
+//                // }
+//        Scanner n= new Scanner(System.in);
+//
+//        System.out.println("Enter Your Name");
+//        String l = n.nextLine();
+//
+//        System.out.println("Enter Your Number");
+//        int ll =n.nextInt();
+//        System.out.println(l.charAt(ll));
+
+        Scanner u = new Scanner(System.in);
+        System.out.println("Enter Your Name");
+        String mm = u.nextLine();
+        System.out.println("Enter charecter");
+        String z = u.nextLine();
+        System.out.println(mm.contains(z));
+    }
